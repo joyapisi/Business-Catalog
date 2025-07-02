@@ -1,5 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { Box, Typography, Grid } from "@mui/material";
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import IconButton from '@mui/material/IconButton';
 
 export default function GalleryPage() {
   const { categoryPath } = useParams();
@@ -11,11 +13,21 @@ export default function GalleryPage() {
   );
 
   return (
-    <Box>
-      <Link to="/" style={{ textDecoration: "none" }}>
-        &larr; Back to Categories
-      </Link>
-      <Typography variant="h4" sx={{ mt: 2, mb: 3 }}>
+
+    <Box sx={{ p: 3 }}>
+          <Link to="/" style={{ position: 'fixed', top: 20, left: 20, zIndex: 1000 }}>
+  <IconButton
+    sx={{
+      backgroundColor: '#fff',
+      boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+      '&:hover': { backgroundColor: '#f5f5f5' },
+    }}
+  >
+    <ArrowBackIcon />
+  </IconButton>
+</Link>
+      <Typography variant="h4" 
+      sx={{ mb: 3, ml: 8 }}>
         {categoryPath.replace(/-/g, " ").toUpperCase()}
       </Typography>
 
@@ -23,8 +35,8 @@ export default function GalleryPage() {
         {images.map((src, index) => (
           <Grid
             key={index}
-            sx={{ flexBasis: { xs: "50%", sm: "33.33%", md: "25%" } }}
-            // item xs={6} sm={4} md={3}
+            // sx={{ flexBasis: { xs: "50%", sm: "33.33%", md: "25%" } }}
+            item xs={6} sm={4} md={3}
           >
             <img
               src={src}
