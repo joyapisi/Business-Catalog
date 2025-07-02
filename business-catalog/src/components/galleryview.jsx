@@ -16,7 +16,7 @@ export default function GalleryView({ category }) {
       <img
         src={src}
         alt={`img-${index}`}
-        style={{ width: '100%', borderRadius: '10px' }}
+        style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '10px' }}
         onError={(e) => (e.target.style.display = 'none')}
       />
     </Grid>

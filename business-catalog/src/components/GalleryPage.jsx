@@ -24,11 +24,12 @@ export default function GalleryPage() {
           <Grid
             key={index}
             sx={{ flexBasis: { xs: "50%", sm: "33.33%", md: "25%" } }}
+            // item xs={6} sm={4} md={3}
           >
             <img
               src={src}
               alt={`img-${index}`}
-              style={{ width: "100%", borderRadius: "10px" }}
+              style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '10px', borderRadius: "10px" }}
               onError={(e) => (e.target.style.display = "none")}
             />
           </Grid>
