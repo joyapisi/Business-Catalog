@@ -6,7 +6,7 @@ import IconButton from '@mui/material/IconButton';
 export default function GalleryPage() {
   const { categoryPath } = useParams();
 
-  const imageCount = 100; // adjust based on how many you have
+  const imageCount = 200; // adjust based on how many you have
   const images = Array.from(
     { length: imageCount },
     (_, i) => `/images/${categoryPath}/${i + 1}.jpg`
