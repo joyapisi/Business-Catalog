@@ -29,6 +29,24 @@ const categories = [
     image: "/images/wall-stickers/1.jpg",
     path: "wall-stickers",
   },
+    {
+    id: 6,
+    title: "Window Films",
+    image: "/images/window-films/1.jpg",
+    path: "wall-stickers",
+  },
+     {
+    id: 7,
+    title: "Flexible Marble Sheets",
+    image: "/images/marble-sheet/1.jpg",
+    path: "wall-stickers",
+  },
+  {
+    id: 8,
+    title: "Wooden Panels",
+    image: "/images/wooden-panels/1.jpg",
+    path: "wooden-panels",
+  },
 ];
 
 export default categories;
