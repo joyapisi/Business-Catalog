@@ -3,7 +3,7 @@ import { Grid, Typography } from '@mui/material';
 export default function GalleryView({ category }) {
   // Build path name based on category
   const folderName = category.toLowerCase().replace(/\s/g, '-');
-  const imageCount = 100; // Number of images in each category folder
+  const imageCount = 500; // Number of images in each category folder
 
   const images = Array.from({ length: imageCount }, (_, i) => `/images/${folderName}/${i + 1}.jpg`);
 
