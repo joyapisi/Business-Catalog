@@ -38,7 +38,7 @@ const categories = [
      {
     id: 7,
     title: "Flexible Marble Sheets",
-    image: "/images/marble-sheet/1.PNG",
+    image: "/images/marble-sheet/1.jpg",
     path: "marble-sheets",
   },
   {
