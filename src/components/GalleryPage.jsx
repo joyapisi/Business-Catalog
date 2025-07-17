@@ -80,7 +80,7 @@ export default function GalleryPage() {
           >
             <li>
               All WALL PAPERS cost 2,500 per roll. 1 roll covers an Area of 5m².
-              Installation costs 500 per meter squared.
+              Installation costs 1200 per roll.
             </li>
             <li>
               We do site visits for complicated surfaces like staircases or
@@ -123,8 +123,54 @@ export default function GalleryPage() {
             }}
           >
             <li>
-              All CONTACT PAPERS cost 2,500 per roll. 1 roll covers an Area of 6m².
-              Installation costs 500 per meter squared.
+              All CONTACT PAPERS cost 2,500 per roll. 1 roll covers an Area of
+              6m². Installation costs 1,200 per roll.
+            </li>
+            <li>
+              We do site visits for complicated surfaces like staircases or
+              ceilings. Whatsapp us on +254 787 292 863.
+            </li>
+          </Typography>
+        )}
+        ,
+        {categoryPath === "wooden-panels" && (
+          <Typography
+            component="ul"
+            sx={{
+              color: "white",
+              textAlign: "left",
+              mb: 3,
+              ml: 8,
+              pt: 6,
+              pl: 2,
+            }}
+          >
+            <li>
+              All WOODEN PANELS cost 2,500 per piece. Installation costs are
+              seperate
+            </li>
+            <li>
+              We do site visits for complicated surfaces like staircases or
+              ceilings. Whatsapp us on +254 787 292 863.
+            </li>
+          </Typography>
+        )}
+        ,
+        {categoryPath === "marble-sheets" && (
+          <Typography
+            component="ul"
+            sx={{
+              color: "white",
+              textAlign: "left",
+              mb: 3,
+              ml: 8,
+              pt: 6,
+              pl: 2,
+            }}
+          >
+            <li>
+              All MARBLE SHEETS cost KES 4,000 per sheet. 1 sheet covers an Area
+              of 2.8m². Installation costs 500 per meter squared.
             </li>
             <li>
               We do site visits for complicated surfaces like staircases or

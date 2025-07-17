@@ -33,13 +33,13 @@ const categories = [
     id: 6,
     title: "Window Films",
     image: "/images/window-films/1.jpg",
-    path: "wall-stickers",
+    path: "window-films",
   },
      {
     id: 7,
     title: "Flexible Marble Sheets",
-    image: "/images/marble-sheet/1.jpg",
-    path: "wall-stickers",
+    image: "/images/marble-sheet/1.PNG",
+    path: "marble-sheets",
   },
   {
     id: 8,
