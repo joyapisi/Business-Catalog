@@ -13,21 +13,21 @@ const categories = [
   },
   {
     id: 3,
+    title: "LED Mirrors",
+    image: "/images/led-mirrors/1.jpg",
+    path: "led-mirrors",
+  },
+    {
+    id: 4,
     title: "Contact Papers",
     image: "/images/contact-papers/1.jpg",
     path: "contact-papers",
   },
   {
-    id: 4,
-    title: "LED Mirrors",
-    image: "/images/led-mirrors/1.jpg",
-    path: "led-mirrors",
-  },
-  {
     id: 5,
-    title: "Wall Stickers",
+    title: "Kids' Stickers",
     image: "/images/wall-stickers/1.jpg",
-    path: "wall-stickers",
+    path: "kids-stickers",
   },
     {
     id: 6,
@@ -43,9 +43,9 @@ const categories = [
   },
   {
     id: 8,
-    title: "Wooden Panels",
+    title: "Fluted Panels(WPC)",
     image: "/images/wooden-panels/1.jpg",
-    path: "wooden-panels",
+    path: "fluted-panels",
   },
 ];
 
