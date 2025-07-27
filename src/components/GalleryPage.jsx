@@ -45,7 +45,7 @@ export default function GalleryPage() {
           <Typography
             component="ul"
             sx={{
-              color: "grey.800",
+              color: "white",
               textAlign: "left",
               mb: 3,
               ml: 8,
@@ -70,7 +70,7 @@ export default function GalleryPage() {
           <Typography
             component="ul"
             sx={{
-              color: "grey.800",
+              color: "white",
               textAlign: "left",
               mb: 3,
               ml: 8,
@@ -89,11 +89,11 @@ export default function GalleryPage() {
           </Typography>
         )}
         ,
-        {categoryPath === "wall-stickers" && (
+        {categoryPath === "kids-stickers" && (
           <Typography
             component="ul"
             sx={{
-              color: "grey.800",
+              color: "white",
               textAlign: "left",
               mb: 3,
               ml: 8,
@@ -101,7 +101,7 @@ export default function GalleryPage() {
               pl: 2,
             }}
           >
-            <li>Clear wall stickers cost 2,000 per meter squared</li>
+            <li>Clear stickers cost 2,000 per meter squared</li>
             <li>Stickers with white background cost 2,500 per meter squared</li>
             <li>
               Laminated stickes(combines clear sticker and sticker with white
@@ -114,7 +114,7 @@ export default function GalleryPage() {
           <Typography
             component="ul"
             sx={{
-              color: "grey.800",
+              color: "white",
               textAlign: "left",
               mb: 3,
               ml: 8,
@@ -133,7 +133,7 @@ export default function GalleryPage() {
           </Typography>
         )}
         ,
-        {categoryPath === "wooden-panels" && (
+        {categoryPath === "fluted-panels" && (
           <Typography
             component="ul"
             sx={{
@@ -170,7 +170,7 @@ export default function GalleryPage() {
           >
             <li>
               All MARBLE SHEETS cost KES 4,000 per sheet. 1 sheet covers an Area
-              of 2.8m². Installation costs 500 per meter squared.
+              of 2.8m². Installation costs are seperate.
             </li>
             <li>
               We do site visits for complicated surfaces like staircases or
