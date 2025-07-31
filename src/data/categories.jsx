@@ -26,7 +26,7 @@ const categories = [
   {
     id: 5,
     title: "Kids' Stickers",
-    image: "/images/wall-stickers/1.jpg",
+    image: "/images/kids-stickers/1.jpg",
     path: "kids-stickers",
   },
   {
@@ -44,7 +44,7 @@ const categories = [
   {
     id: 8,
     title: "Fluted Panels(WPC)",
-    image: "/images/wooden-panels/1.jpg",
+    image: "/images/fluted-panels/1.jpg",
     path: "fluted-panels",
   },  
   {
@@ -55,8 +55,8 @@ const categories = [
   },
   {
     id: 10,
-    title: "Fly & Mosquito Screens(Anti-Insect screens)",
-    image: "/images/marble-sheet/1.jpg",
+    title: "Fly & Mosquito Screens(Anti-Insect)",
+    image: "/images/fly-mosquito screens/1.jpg",
     path: "fly-mosquito screens",
   },
   {
