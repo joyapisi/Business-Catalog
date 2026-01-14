@@ -1,6 +1,6 @@
 import { Container, Grid, Box, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import Footer from "../components/Footer";
+import Footer from "C:/Users/lenovo/Documents/Business-Catalog/src/components/Footer.jsx";
 import CategoryCard from "../components/CategoryCard";
 import categories from "../data/categories";
 
