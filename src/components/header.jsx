@@ -1,5 +1,3 @@
-import { AppBar, Toolbar, Typography } from '@mui/material';
-
 export default function Header() {
  return (
     <header style={{ background: '#333', color: 'white', padding: '1rem', textAlign: 'center' }}>
