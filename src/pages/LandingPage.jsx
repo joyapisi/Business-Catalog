@@ -1,6 +1,4 @@
-// src/pages/LandingPage.jsx
 import { Box, Typography, Button, Avatar } from "@mui/material";
-import HomeIcon from "@mui/icons-material/Home";
 import { useNavigate } from "react-router-dom";
 
 export default function LandingPage() {
@@ -10,8 +8,7 @@ export default function LandingPage() {
     <Box
       sx={{
         minHeight: "100vh",
-        backgroundImage:
-          "url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c)",
+        backgroundImage: "url(./public/landing-background.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: "flex",
@@ -27,24 +24,32 @@ export default function LandingPage() {
           position: "absolute",
           top: 24,
           right: 24,
-          width: 70,
-          height: 70,
-          bgcolor: "transparent",
+          width: 72,
+          height: 72,
+          bgcolor: "rgba(255,255,255,0.15)", // subtle glass effect
           border: "1.5px solid #6B4E3D",
-          color: "#6B4E3D",
-          fontSize: 10,
-          textAlign: "center",
-          lineHeight: 1.1,
+          backdropFilter: "blur(4px)", // optional premium touch
+            boxShadow: "0 0 12px rgba(107,78,61,0.25)",
+            cursor: "pointer",
+            transition: "transform 0.3s ease",
+          "&:hover img": {
+              transform: "rotate(-3deg)",
+              transition: "0.3s ease",
+            },
         }}
       >
-        <Box>
-          <Typography sx={{ fontSize: 9 }}>BUY MY</Typography>
-          <HomeIcon sx={{ fontSize: 16 }} />
-          <Typography sx={{ fontSize: 9 }}>SPACE</Typography>
-        </Box>
+        <img
+          src="./public/logo.png"
+          alt="Buy My Space Logo"
+          style={{
+            width: "60%",
+            height: "60%",
+            objectFit: "contain",
+            opacity: 0.65, // translucency
+          }}
+        />
       </Avatar>
 
-      {/* Centered Content */}
       <Box
         sx={{
           textAlign: "center",
