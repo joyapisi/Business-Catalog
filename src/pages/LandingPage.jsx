@@ -8,7 +8,7 @@ export default function LandingPage() {
     <Box
       sx={{
         minHeight: "100vh",
-        backgroundImage: "url(./public/landing-background.jpg)",
+        backgroundImage: "url(./images/landing-background.jpg)",
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: "flex",
@@ -27,7 +27,7 @@ export default function LandingPage() {
           width: 72,
           height: 72,
           bgcolor: "rgba(255,255,255,0.15)", // subtle glass effect
-          border: "1.5px solid #6B4E3D",
+          // border: "1.5px solid #6B4E3D",
           backdropFilter: "blur(4px)", // optional premium touch
             boxShadow: "0 0 12px rgba(107,78,61,0.25)",
             cursor: "pointer",
@@ -39,11 +39,11 @@ export default function LandingPage() {
         }}
       >
         <img
-          src="./public/logo.png"
+          src="./images/logo.png"
           alt="Buy My Space Logo"
           style={{
-            width: "60%",
-            height: "60%",
+            width: "150%",
+            height: "150%",
             objectFit: "contain",
             opacity: 0.65, // translucency
           }}
