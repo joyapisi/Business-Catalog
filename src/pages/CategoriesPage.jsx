@@ -2,7 +2,6 @@ import { Container, Grid, Box, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import CategoryCard from "../components/CategoryCard";
 import categories from "../data/categories";
-import Footer from "../components/Footer";
 
 export default function CategoriesPage() {
   const navigate = useNavigate();
@@ -57,8 +56,6 @@ export default function CategoriesPage() {
           ))}
         </Grid>
       </Container>
-
-      <Footer />
     </Box>
   );
 }
