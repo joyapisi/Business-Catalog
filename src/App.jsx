@@ -4,7 +4,7 @@ import Footer from './components/footer';
 import CategoryCard from './components/categoryCard';
 import categories from './data/categories';
 import GalleryPage from './components/GalleryPage';
-import { Container, Grid, Box } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 
 function Home() {
   const navigate = useNavigate();
