@@ -1,10 +1,4 @@
-import {
-  Modal,
-  Box,
-  Typography,
-  IconButton,
-  Stack,
-} from "@mui/material";
+import { Modal, Box, Typography, IconButton, Link, Stack } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import MapIcon from "@mui/icons-material/Map";
 import RequestQuoteIcon from "@mui/icons-material/RequestQuote";
@@ -36,12 +30,30 @@ export default function ChatModal({ open, onClose }) {
           What are you interested in?
         </Typography>
 
-        <Stack spacing={2}>
-          <Option text="Explore Product Catalog" icon={<MapIcon />} />
-          <Option text="Get a quotation" icon={<RequestQuoteIcon />} />
-          <Option text="Make Inquiry" icon={<ChatIcon />} />
-          <Option text="Call us now" icon={<CallIcon />} />
-        </Stack>
+        <Box sx={{ p: 3 }}>
+          <Stack spacing={2}>
+            <Link href="/categories" underline="none">
+              <Option text="Explore Product Catalog" icon={<MapIcon />} />
+            </Link>
+            <Link
+              href="https://wa.me/message/AYJ3TMCTJLVZH1"
+              target="_blank"
+              underline="none"
+            >
+              <Option text="Get a quotation" icon={<RequestQuoteIcon />} />
+            </Link>
+            <Link
+              href="https://wa.me/message/AYJ3TMCTJLVZH1"
+              target="_blank"
+              underline="none"
+            >
+              <Option text="Make Inquiry" icon={<ChatIcon />} />
+            </Link>
+            <Link href="tel:0787292863" underline="none">
+              <Option text="Call us now" icon={<CallIcon />} />
+            </Link>
+          </Stack>
+        </Box>
       </Box>
     </Modal>
   );
@@ -49,7 +61,13 @@ export default function ChatModal({ open, onClose }) {
 
 function Option({ text, icon }) {
   return (
-    <Box sx={{ display: "flex", justifyContent: "space-between", cursor: "pointer" }}>
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "space-between",
+        cursor: "pointer",
+      }}
+    >
       <Typography>{text}</Typography>
       {icon}
     </Box>
