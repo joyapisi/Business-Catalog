@@ -2,7 +2,8 @@ import { Card, CardActionArea, CardMedia, CardContent, Typography, Box } from '@
 
 export default function CategoryCard({ category, onClick }) {
  return (
-    <Card sx={{ display: 'flex', mb: 2, width: 300, height: 150 }}>
+    <Card sx={{ display: 'flex', mb: 2, width: 300, height: 150, bgcolor: "#fff",
+    borderRadius: 0 }}>
       <CardActionArea sx={{ display: 'flex' }} onClick={() => onClick(category.path)}>
         <CardMedia
           component="img"

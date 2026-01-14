@@ -2,7 +2,7 @@ const categories = [
   {
     id: 1,
     title: "Wall Murals",
-    image: "/images/wall-murals/1.jpg",
+    image: " /images/wall-murals/1.jpg",
     path: "wall-murals",
   },
   {

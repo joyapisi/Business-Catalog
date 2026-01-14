@@ -1,4 +1,3 @@
-// src/components/footer.jsx
 import { Box, Typography, IconButton, Link as MuiLink } from '@mui/material';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TikTokIcon from '@mui/icons-material/MusicNote'; // TikTok doesn't have a dedicated icon, this is a good alternative
