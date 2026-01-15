@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import CategoriesPage from "./pages/CategoriesPage";
-import GalleryPage from "./pages/galleryPage";
+import GalleryPage from "./pages/GalleryPage";
 
 export default function App() {
   return (
