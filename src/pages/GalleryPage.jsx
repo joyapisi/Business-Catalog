@@ -6,7 +6,7 @@ import {
 } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import categories from "../data/categories";
-import ImagePreviewModal from "../components/ImagePreviwModal";
+import ImagePreviewModal from "../components/ImagePreviewModal";
 import ChatButton from "../components/ChatButton";
 import { useState } from "react";
 
