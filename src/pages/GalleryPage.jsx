@@ -19,7 +19,9 @@ export default function GalleryPage() {
   if (!category) return null;
 
   // load images dynamically
-  const images = Array.from({ length: 50 }, (_, i) =>
+  const MAX_IMAGES = 2000;
+
+  const images = Array.from({ length: MAX_IMAGES }, (_, i) =>
     `/images/${category.path}/${i + 1}.jpg`
   );
 
