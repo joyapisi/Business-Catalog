@@ -1,9 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
-import {
-  Box,
-  Typography,
-  IconButton,
-} from "@mui/material";
+import { Box, Typography, IconButton } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import categories from "../data/categories";
 import ImagePreviewModal from "../components/ImagePreviewModal";
@@ -15,19 +11,19 @@ export default function GalleryPage() {
   const navigate = useNavigate();
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const category = categories.find(c => c.path === categoryPath);
+  const category = categories.find((c) => c.path === categoryPath);
   if (!category) return null;
 
   // load images dynamically
   const MAX_IMAGES = 4000;
 
-  const images = Array.from({ length: MAX_IMAGES }, (_, i) =>
-    `/images/${category.path}/${i + 1}.jpg`
+  const images = Array.from(
+    { length: MAX_IMAGES },
+    (_, i) => `/images/${category.path}/${i + 1}.jpg`
   );
 
   return (
     <Box sx={{ bgcolor: "#5A4636", minHeight: "100vh", pb: 10 }}>
-      
       {/* HEADER */}
       <Box sx={{ p: 3, display: "flex", alignItems: "center" }}>
         <IconButton onClick={() => navigate(-1)} sx={{ color: "#fff" }}>
@@ -44,6 +40,36 @@ export default function GalleryPage() {
         >
           Explore <br />
           <strong>{category.title}</strong>
+        </Typography>
+      </Box>
+
+      {/* DESCRIPTION SECTION */}
+      <Box
+        sx={{
+          px: 3,
+          pb: 3,
+          color: "#F5F1EC",
+          maxWidth: 900,
+        }}
+      >
+        <Typography
+          sx={{
+            fontFamily: "serif",
+            fontSize: { xs: 18, sm: 22 },
+            mb: 1,
+          }}
+        >
+          {category.description?.heading}
+        </Typography>
+
+        <Typography
+          sx={{
+            fontSize: { xs: 14, sm: 15 },
+            lineHeight: 1.7,
+            opacity: 0.9,
+          }}
+        >
+          {category.description?.body}
         </Typography>
       </Box>
 
