@@ -15,7 +15,7 @@ export default function GalleryPage() {
   if (!category) return null;
 
   // load images dynamically
-  const MAX_IMAGES = 4000;
+  const MAX_IMAGES = 200;
 
   const images = Array.from(
     { length: MAX_IMAGES },
@@ -91,6 +91,8 @@ export default function GalleryPage() {
             key={index}
             component="img"
             src={img}
+            loading="lazy"
+            decoding="async"
             sx={{
               width: "100%",
               borderRadius: 2,

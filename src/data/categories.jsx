@@ -6,7 +6,7 @@ const categories = [
     path: "wall-murals",
     description: {
       heading: "Customised | Unique | Easy to Clean",
-      body: "KES 2,200 Per Meter Squared (Purchase Only) | KES 3,000 Per Meter Squared (All-Inclusive Package)",
+      body: "Send us a picture and we will design it! \nKES 2,200 Per Meter Squared (Purchase Only) | KES 3,000 Per Meter Squared (All-Inclusive Package) \nOur wall murals are customised according to your wall size \nPro Tip: TOTAL PRICE = Area of your wall(m2) * KES 3,000",
     },
   },
   {
@@ -26,7 +26,7 @@ const categories = [
     path: "window-films",
     description: {
       heading: "Customised | Unique | Durable",
-      body: "KES 3,000 Per Meter Squared (Purchase Only) | KES 500 Per Meter Squared (Installation Labor)",
+      body: "KES 3,000 Per Meter Squared (Purchase Only) | KES 500 Per Meter Squared (Installation Labor) | Non-customised go at KES 1,500 Per Meter(Purchase Only) \nOur customised window films are designed to enhance privacy and aesthetics for residential and commercial spaces.",
     },
   },
   {
