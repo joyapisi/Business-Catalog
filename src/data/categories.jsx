@@ -26,7 +26,7 @@ const categories = [
     path: "window-films",
     description: {
       heading: "Customised | Unique | Durable",
-      body: "KES 3,000 Per Meter Squared (Purchase Only) | KES 500 Per Meter Squared (Installation Labor)",
+      body: "KES 3,000 Per Meter Squared (Purchase Only) | KES 500 Per Meter Squared (Installation Labor) | Non-customised go at KES 1,500 Per Meter(Purchase Only) \nOur customised window films are designed to enhance privacy and aesthetics for residential and commercial spaces.",
     },
   },
   {
