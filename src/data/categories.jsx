@@ -5,18 +5,18 @@ const categories = [
     image: " /images/wall-murals/1.jpg",
     path: "wall-murals",
     description: {
-      heading: "Customised | Unique | Easy to Clean",
-      body: "Send us any picture and we will design it!\nStarting from KES 2,200 Per Meter Squared\nOur wall murals are customised according to your wall size.\nHow to know Price?: TOTAL PRICE = Area of your wall(m2) * KES 2,200",
+      heading: "Customized | Unique | Easy to Clean",
+      body: "Send us any picture and we will design it!\nPurchase price is KES 2,200 Per Meter Squared | KES 500 Per Meter Squared (Installation Labor)\nOur wall murals are customised according to your wall size.\nHow to know Price?: TOTAL PRICE = Area of your wall(m2) * KES 2,200",
     },
   },
     {
     id: 2,
     title: "Wallpapers",
-    image: "/images/wallpapers/001.jpg",
+    image: "/images/wallpapers/1.jpg",
     path: "wallpapers",
     description: {
       heading: "Aesthetic | Versatile | Easy to Apply",
-      body: "Purchase price KES 2,200 | KES 800 Per Roll (Installation Labor)\nCome in pre-designed rolls of 10m length and 0.53m width.",
+      body: "Purchase price is KES 2,200 | KES 900 Per Roll (Installation Labor)\nCome in pre-designed rolls of 10m length and 0.53m width.",
     },
   },
     {
@@ -26,13 +26,13 @@ const categories = [
     path: "window-films",
     description: {
       heading: "Customised | Unique | Durable",
-      body: "KES 3,000 Per Meter Squared (Purchase Only) | KES 500 Per Meter Squared (Installation Labor) | Non-customised go at KES 1,500 Per Meter(Purchase Only) \nOur customised window films are designed to enhance privacy and aesthetics for residential and commercial spaces.",
+      body: "Purchase price is KES 3,000 Per Meter Squared | KES 500 Per Meter Squared (Installation Labor) | Non-customised go at KES 1,500 Per Meter(Purchase Only) \nOur customised window films are designed to enhance privacy and aesthetics for residential and commercial spaces.",
     },
   },
     {
     id: 4,
     title: "Business Stickers",
-    image: "/images/business-stickers/1(1).jpg",
+    image: "/images/business-stickers/1.png",
     path: "business-stickers",
     description: {
       heading: "Self-Adhesive | Customized | Easy to Apply",
