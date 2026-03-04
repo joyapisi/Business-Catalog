@@ -1,8 +1,8 @@
 const categories = [
   {
     id: 1,
-    title: "Wall Murals",
-    image: " /images/wall-murals/1.jpg",
+    title: "Murals - Customized Wallpapers",
+    image: "/images/wall-murals/1.jpg",
     path: "wall-murals",
     description: {
       heading: "Customized | Unique | Easy to Clean",
@@ -16,12 +16,12 @@ const categories = [
     path: "wallpapers",
     description: {
       heading: "Aesthetic | Versatile | Easy to Apply",
-      body: "Purchase price is KES 2,200 | KES 900 Per Roll (Installation Labor)\nCome in pre-designed rolls of 10m length and 0.53m width.",
+      body: "Purchase price is KES 2,200 | KES 900 Per Roll (Installation Labor)\nCome in pre-designed rolls of 10m length and 1m width. Are not customized but are designed to transform spaces with bold visuals, textures, and patterns. Ideal for homes, offices, studios, and commercial interiors.",
     },
   },
     {
     id: 3,
-    title: "Customised Window Films",
+    title: "Customized Glass Frost",
     image: "/images/window-films/1.jpg",
     path: "window-films",
     description: {
@@ -32,7 +32,7 @@ const categories = [
     {
     id: 4,
     title: "Business Stickers",
-    image: "/images/business-stickers/1.png",
+    image: "/images/business-stickers/1.jpg",
     path: "business-stickers",
     description: {
       heading: "Self-Adhesive | Customized | Easy to Apply",
@@ -45,13 +45,13 @@ const categories = [
     image: "/images/kids-stickers/1.jpg",
     path: "kids-stickers",
     description: {
-      heading: "Customised | Fun | Educational",
-      body: "KES 2000 (Purchase Only) | KES 500(Installation Labor) \nOur kids' stickers are designed to create playful and educational environments in children's rooms, play areas, and schools.",
+      heading: "Customized | Fun | Educational",
+      body: "KES 2000 (Purchase Only) | KES 500(Installation Labor)\nOur kids' stickers are designed to create playful and educational environments in children's rooms, play areas, and schools.",
     },
   },
   {
     id: 6,
-    title: "Wall to Wall carpets",
+    title: "Wall to Wall Carpets",
     image: "/images/wall-wall-carpets/1.jpg",
     path: "wall-wall-carpets",
     description: {
