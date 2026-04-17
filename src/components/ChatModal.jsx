@@ -32,9 +32,7 @@ export default function ChatModal({ open, onClose }) {
 
         <Box sx={{ p: 3 }}>
           <Stack spacing={2}>
-            <Link href="/categories" underline="none">
-              <Option text="Explore Product Catalog" icon={<MapIcon />} />
-            </Link>
+            
             <Link
               href="https://wa.me/message/AYJ3TMCTJLVZH1"
               target="_blank"
@@ -47,10 +45,13 @@ export default function ChatModal({ open, onClose }) {
               target="_blank"
               underline="none"
             >
-              <Option text="Make Inquiry" icon={<ChatIcon />} />
+              <Option text="Make Inquiry on whatsapp" icon={<ChatIcon />} />
             </Link>
             <Link href="tel:0787292863" underline="none">
-              <Option text="Call us now" icon={<CallIcon />} />
+              <Option text="Talk to us" icon={<CallIcon />} />
+            </Link>
+            <Link href="/categories" underline="none">
+              <Option text="Continue Exploring" icon={<MapIcon />} />
             </Link>
           </Stack>
         </Box>
