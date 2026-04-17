@@ -1,4 +1,5 @@
 import { Card, CardActionArea, CardMedia, CardContent, Typography, Box } from '@mui/material';
+import OrderButton from './OrderButton';
 
 export default function CategoryCard({ category, onClick }) {
  return (
@@ -17,6 +18,7 @@ export default function CategoryCard({ category, onClick }) {
           </CardContent>
         </Box>
       </CardActionArea>
+      <OrderButton />
     </Card>
   );
 }
